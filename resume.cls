@@ -91,7 +91,7 @@
 
 \newkeycommand{\educationItem}[university,program,city,state,graduation,grade,coursework]{
     {\bf \commandkey{university}} \hfill {\commandkey{city}, \commandkey{state}} \\
-    {\it \commandkey{program}} \hfill {Expected \commandkey{graduation}}{} \\
+    {\it \commandkey{program}} \hfill {\it Expected \commandkey{graduation}}{} \\
     {\begin{itemize}
         \vspace{-1.7em}
         \itemsep -6pt {} 
@@ -134,10 +134,10 @@
 
 \newkeycommand{\experienceItem}[company, position, location, duration]{
     \textbf{\commandkey{company}} \hfill {\commandkey{location}} \\
-    {\it \commandkey{position}} \hfill {\commandkey{duration}}
+    {\it \commandkey{position}} \hfill {\it \commandkey{duration}}
 }
 
 \newkeycommand{\customItem}[title, duration, location, keyHighlight]{
     \textbf{\commandkey{title}} \hfill {\commandkey{location}} \\
-    {\it \commandkey{keyHighlight}} \hfill {\commandkey{duration}}{}
+    {\it \commandkey{keyHighlight}} \hfill {\it \commandkey{duration}}{}
 }
