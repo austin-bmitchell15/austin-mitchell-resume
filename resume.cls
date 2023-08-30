@@ -89,15 +89,9 @@
 
 }
 
-\newkeycommand{\educationItem}[university,program,city,state,graduation,grade,coursework]{
+\newkeycommand{\educationItem}[university,program,city,state,graduation,grade=\empty,coursework=\empty]{
     {\bf \commandkey{university}} \hfill {\commandkey{city}, \commandkey{state}} \\
     {\it \commandkey{program}} \hfill {\it Expected \commandkey{graduation}}{} \\
-    {\begin{itemize}
-        \vspace{-1.7em}
-        \itemsep -6pt {} 
-        \item GPA: \commandkey{grade}/4.00
-        \item Relevant coursework: \commandkey{coursework}
-    \end{itemize}}{}
 }
 
 \newcommand{\skills}{
