@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.10)  28 DEC 2023 17:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.10)  2 JAN 2024 10:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,7 +319,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--33
 
 [1
 
-{C:/Users/Austin's Laptop/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (resume.aux)
+{C:/Users/Austin's Laptop/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (resume.aux)
 
 Package rerunfilecheck Warning: File `resume.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -330,17 +330,17 @@ Package rerunfilecheck Info: Checksums for `resume.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9753 strings out of 475385
- 158158 string characters out of 2772151
+ 9752 strings out of 475385
+ 158152 string characters out of 2772151
  522909 words of memory out of 3000000
  31024 multiletter control sequences out of 15000+600000
  485429 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,81p,596b,620s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 75i,5n,81p,596b,428s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Austin's Laptop/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Austin's Laptop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Austin's Laptop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Austin's Laptop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on resume.pdf (2 pages, 58826 bytes).
+Output written on resume.pdf (1 page, 58142 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
+ 30 PDF objects out of 1000 (max. 8388607)
+ 2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

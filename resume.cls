@@ -75,7 +75,6 @@
     \textbf{\MakeUppercase{#1}}
     \vspace{0.4em}
     \hrule
-    \vspace{-0.3em}
 }
 
 \newcommand{\summary}[1]{
@@ -109,7 +108,6 @@
   \textbf{\MakeUppercase{#1}}
   \vspace{0.4em}
   \hrule
-  \vspace{-0.3em}
   \begin{list}{}{ % List for each individual item in the section
     \setlength{\leftmargin}{0em} % Margin within the section
   }
@@ -127,11 +125,13 @@
 }
 
 \newkeycommand{\experienceItem}[company, position, location, duration]{
+    \vspace{-0.3em}
     \textbf{\commandkey{company}} \hfill {\commandkey{location}} \\
     {\it \commandkey{position}} \hfill {\it \commandkey{duration}}
 }
 
 \newkeycommand{\customItem}[title, duration, location, keyHighlight]{
+    \vspace{-0.3em}
     \textbf{\commandkey{title}} \hfill {\commandkey{location}} \\
     {\it \commandkey{keyHighlight}} \hfill {\it \commandkey{duration}}{}
 }
