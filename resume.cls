@@ -88,9 +88,9 @@
 
 }
 
-\newkeycommand{\educationItem}[university,program,city,state,graduation,grade=\empty,coursework=\empty]{
+\newkeycommand{\educationItem}[university,program,city,state,graduation=\empty, grade=\empty,coursework=\empty]{
     {\bf \commandkey{university}} \hfill {\commandkey{city}, \commandkey{state}} \\
-    {\it \commandkey{program}} \hfill {\it Expected \commandkey{graduation}}{} \\
+    {\it \commandkey{program}} \hfill {\it \commandkey{graduation}}{} \\
 }
 
 \newcommand{\skills}{
