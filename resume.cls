@@ -89,6 +89,7 @@
 }
 
 \newkeycommand{\educationItem}[university,program,city,state,graduation=\empty, grade=\empty,coursework=\empty]{
+    \vspace{-0.3em}
     {\bf \commandkey{university}} \hfill {\commandkey{city}, \commandkey{state}} \\
     {\it \commandkey{program}} \hfill {\it \commandkey{graduation}}{} \\
 }
