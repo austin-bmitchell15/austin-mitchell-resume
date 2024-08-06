@@ -15,6 +15,7 @@
 \usepackage{keycommand}
 \usepackage{xstring}
 \usepackage{hyperref}
+\usepackage{enumitem}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -34,12 +35,11 @@
     \hfill{\huge\bfseries #1}\hfill
     \break
     \vspace{-0.5em}
-    \hrule
     \endgroup
 }
 
 \newcommand{\printContactInformation}{%
-  \vspace{-0.3em} % remove vertical space above
+  \vspace{-1.3em} % remove vertical space above
   \begin{center}
     \ifcommandkey{phone}{%
         \commandkey{phone}%
@@ -117,7 +117,7 @@
 }
 
 \newenvironment{bullets}{
-    \begin{itemize}
+    \begin{itemize}[leftmargin=1.3em]
         \vspace{-0.5em}
         \itemsep -6pt {} 
     }{
