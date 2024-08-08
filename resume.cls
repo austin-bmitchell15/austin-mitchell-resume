@@ -43,19 +43,19 @@
   \begin{center}
     \ifcommandkey{phone}{%
         \commandkey{phone}%
-        \ifcommandkey{email}{ \separator\ }%
-            {\ifcommandkey{linkedin}{ \separator\ }%
-                {\ifcommandkey{github}{ \separator\ }%
+        \ifcommandkey{email}{ \separator }%
+            {\ifcommandkey{linkedin}{ \separator }%
+                {\ifcommandkey{github}{ \separator }%
                     {}}}%
     }{}%
     \ifcommandkey{email}{%
         \email{\commandkey{email}}%
-            \ifcommandkey{linkedin}{ \separator\ }%
-                {\ifcommandkey{github}{ \separator\ }}%
+            \ifcommandkey{linkedin}{ \separator }%
+                {\ifcommandkey{github}{ \separator }}%
     }{}%
     \ifcommandkey{linkedin}{%
             \profilelink{\commandkey{linkedin}}%
-            \ifcommandkey{github}{ \separator\ }{}%
+            \ifcommandkey{github}{ \separator }{}%
     }{}%
     \ifcommandkey{github}{%
         \profilelink{\commandkey{github}}%
@@ -88,9 +88,14 @@
 
 }
 
-\newkeycommand{\educationItem}[university,program,city,state,graduation=\empty, grade=\empty,coursework=\empty]{
+\newkeycommand{\educationItem}[university,program,city,state,graduation=\empty, grade=\empty, coursework=\empty]{
     \vspace{-0.3em}
     {\bf \commandkey{university}} \hfill {\commandkey{city}, \commandkey{state}} \\
+    {\it \commandkey{program}} \hfill {\it \commandkey{graduation}}{} \\
+}
+
+\newkeycommand{\educationExtension}[program, graduation=\empty, grade=\empty, coursework=\empty]{
+    \vspace{-0.4em}
     {\it \commandkey{program}} \hfill {\it \commandkey{graduation}}{} \\
 }
 
