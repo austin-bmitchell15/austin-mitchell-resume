@@ -41,25 +41,10 @@
 \newcommand{\printContactInformation}{%
   \vspace{-1.3em} % remove vertical space above
   \begin{center}
-    \ifcommandkey{phone}{%
-        \commandkey{phone}%
-        \ifcommandkey{email}{ \separator }%
-            {\ifcommandkey{linkedin}{ \separator }%
-                {\ifcommandkey{github}{ \separator }%
-                    {}}}%
-    }{}%
-    \ifcommandkey{email}{%
-        \email{\commandkey{email}}%
-            \ifcommandkey{linkedin}{ \separator }%
-                {\ifcommandkey{github}{ \separator }}%
-    }{}%
-    \ifcommandkey{linkedin}{%
-            \profilelink{\commandkey{linkedin}}%
-            \ifcommandkey{github}{ \separator }{}%
-    }{}%
-    \ifcommandkey{github}{%
-        \profilelink{\commandkey{github}}%
-    }{}%
+    \commandkey{phone} \separator
+    \email{\commandkey{email}} \separator
+    \profilelink{\commandkey{linkedin}} \separator
+    \profilelink{\commandkey{github}}
   \end{center}
 }
 
@@ -95,7 +80,7 @@
 }
 
 \newkeycommand{\educationExtension}[program, graduation=\empty, grade=\empty, coursework=\empty]{
-    \vspace{-0.4em}
+    \vspace{-0.7em}
     {\it \commandkey{program}} \hfill {\it \commandkey{graduation}}{} \\
 }
 
