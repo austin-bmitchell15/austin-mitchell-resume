@@ -38,6 +38,8 @@
     \endgroup
 }
 
+\def \separator {\textbullet}
+
 \newcommand{\printContactInformation}{%
   \vspace{-1.3em} % remove vertical space above
   \begin{center}
