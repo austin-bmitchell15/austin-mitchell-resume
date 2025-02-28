@@ -111,10 +111,20 @@
 
 \newenvironment{bullets}{
     \begin{itemize}[leftmargin=1.3em]
-        \vspace{-0.5em}
+        \vspace{-0.3em}
         \itemsep -6pt {} 
     }{
     \end{itemize}
+}
+
+\newenvironment{experience}[4]{
+    \vspace{-0.3em}
+    \textbf{#1} \hfill {#2} \\
+    \vspace{-0.3em}
+    {\it #3} \hfill {\it#4}
+    \begin{bullets}
+}{
+    \end{bullets}
 }
 
 \newkeycommand{\experienceItem}[company, position, location, duration]{
