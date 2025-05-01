@@ -82,7 +82,7 @@
 }
 
 \newkeycommand{\educationExtension}[program, graduation=\empty, grade=\empty, coursework=\empty]{
-    \vspace{-0.7em}
+    \vspace{-0.3em}
     {\it \commandkey{program}} \hfill {\it \commandkey{graduation}}{} \\
 }
 
